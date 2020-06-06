@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    position: absolute;
+    position: fixed;
     background-color: #e66c06;
     height: 146px;
     bottom: 0px;
@@ -9,6 +9,11 @@ footer {
 
 footer img {
     width: 64px;
+    height: 64px;
+
+}
+
+footer div {
     height: 64px;
 }
 
@@ -34,7 +39,6 @@ footer img {
     padding: 10px 20px;
     color: #e66c06;
     background-color: #ffffff;
-    letter-spacing: 2px;
 }
 
 .config1 {
@@ -45,6 +49,8 @@ footer img {
 }
 
 .home2, .config1 {
+    height: 30px;
     line-height: 30px;
     font-size: 30px;
+    letter-spacing: 2px;
 }
