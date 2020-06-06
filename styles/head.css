@@ -1,12 +1,10 @@
-.top{
+.top {
     height: 132px;
     background-color: #e66c06;
 }
-.top div{
-    color: #ffffff;
+
+.top .back, .more {
     height: 55px;
-    line-height: 54px;
-    font-size: 54px;
 }
 
 .back {
@@ -24,7 +22,11 @@
 }
 
 .title {
+    color: #ffffff;
     margin: 0 132px;
     text-align: center;
     padding: 39px 0;
+    font-size: 54px;
+    height: 54px;
+    letter-spacing: 5px;
 }
