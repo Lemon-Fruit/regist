@@ -1,11 +1,50 @@
-footer{
+footer {
+    width: 100%;
+    position: absolute;
     background-color: #e66c06;
+    height: 146px;
+    bottom: 0px;
+    left: 0px;
 }
 
-.home{
+footer img {
+    width: 64px;
+    height: 64px;
+}
+
+.home {
+    margin-left: 20px;
+    padding: 20px;
+    padding-bottom: 0px;
     float: left;
+    background-color: #ffffff;
 }
 
-.config{
+.config {
+    margin-right: 20px;
+    padding: 20px;
+    padding-bottom: 0px;
     float: right;
+}
+
+.home2 {
+    clear: both;
+    float: left;
+    margin: 0 0 0 20px;
+    padding: 10px 20px;
+    color: #e66c06;
+    background-color: #ffffff;
+    letter-spacing: 2px;
+}
+
+.config1 {
+    float: right;
+    margin: 0 20px 0 0;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+.home2, .config1 {
+    line-height: 30px;
+    font-size: 30px;
 }
